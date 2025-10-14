@@ -1,3 +1,26 @@
+# 🎬 CloneFlix - Versión 1.0
+
+**Versión Inicial** - Estructura base y diseño fundamental de la plataforma de streaming.
+
+## 📋 Descripción de la Versión 1.0
+
+Esta versión representa la base sólida sobre la cual se construye CloneFlix. Se establecieron los cimientos del diseño visual y la estructura HTML necesaria para crear una experiencia de usuario atractiva y funcional.
+
+## 🌟 Estructura de Archivos
+
+```
+📦 CloneFlix
+├── 📄 index.html
+├── 🎨 css/
+│   └── app.css
+├── 📱 js/
+│   └── app.js
+```
+
+## 💻 Código Principal 
+
+### index.html
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -57,3 +80,89 @@
     <script src="./js/app.js"></script>
   </body>
 </html>
+```
+
+### app.css
+```css
+body{
+    background-color:#0B0D10;
+}
+
+.navbar-brand b {
+    color: #E50914;
+}
+
+.hero {
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    padding: 3rem 1rem;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+.hero > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.rowTitle { 
+    font-weight: 700;
+    margin: 1rem 0 .5rem;
+}
+
+.rail {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: .5rem;
+    scroll-snap-type: x mandatory;
+}
+
+.card-poster {
+    min-width: 160px;
+    scroll-snap-align: start;
+    background: #111;
+    border: none;
+}
+
+.card-poster img {
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.badge-genre {
+    background-color: #E50914;
+}
+
+.footer {
+    border-top: 1px solid #222;
+    color: #9AA4AD;
+}
+
+::-webkit-scrollbar{
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 4px;
+}
+```
+
+## 📁 Navegación del Repositorio
+
+[🏠 **Inicio**](./README.md) • [📋 **Version 1**](./version1/) • [🚀 **Version 2**](./version2/) 
+
+---
+
+*Base sólida para grandes experiencias cinematográficas* 🎭
