@@ -203,7 +203,7 @@ init()
 
 ## 📁 Navegación del Repositorio
 
-[🏠 **Inicio**](./README.md) • [📋 **Version 1**](./version1/) • [🚀 **Version 2**](./version2/) 
+[🏠 **Inicio**](./README.md) • [📋 **Version 1**](./version1.md/) • [🚀 **Version 2**](./version2.md/) 
 
 ---
 
