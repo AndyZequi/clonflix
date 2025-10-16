@@ -34,8 +34,8 @@ CloneFlix representa la evolución del consumo digital de contenido audiovisual.
 
 ## 📁 Navegación del Repositorio
 
-[🏠 **Inicio**](./README.md) • [📋 **Version1**](./version1.md/) • [🚀 **Version2**](./version2.md/) 
+[🏠 **Inicio**](./README.md) • [📋 **Version 1**](./version1.md/) • [🚀 **Version 2**](./version2.md/) • [⚡ **Version 3**](./version3.md/) 
 
 ---
 
-*CloneFlix - El cine desde tu casa* 🍿
+*Hecho con ❤️ para los amantes del cine.* 
