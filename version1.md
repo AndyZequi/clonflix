@@ -161,8 +161,8 @@ body{
 
 ## 📁 Navegación del Repositorio
 
-[🏠 **Inicio**](./README.md) • [📋 **Version 1**](./version1.md/) • [🚀 **Version 2**](./version2.md/) • [⚡ **Version 3**](./version3.md/) 
+[🏠 **Inicio**](./README.md) • [📋 **Version 1**](./version1/) • [🚀 **Version 2**](./version2/) 
 
 ---
 
-*Hecho con ❤️ para los amantes del cine.* 
+*Base sólida para grandes experiencias cinematográficas* 🎭
